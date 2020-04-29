@@ -181,4 +181,4 @@ ani = animation.FuncAnimation(fig, animate, frames = num_frames,
                               interval = step, blit=True, init_func=init)
 
 plt.close()
-ani.save(ParticleBox.mp4)
+ani.save('ParticleBox.mp4')
